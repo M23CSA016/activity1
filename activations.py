@@ -52,3 +52,7 @@ if __name__ == "__main__":
 
     plt.close()
 
+    print(f"ReLU Values: {[relu_func(x) for x in input_values]}")
+    print(f"Leaky ReLU Values: {[leaky_relu(x) for x in input_values]}")
+    print(f"Tanh Values: {[leaky_relu(x) for x in input_values]}")
+
