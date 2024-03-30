@@ -51,8 +51,8 @@ if __name__ == "__main__":
     plot(input_np, tanh_values, label="Tanh")
 
     plt.close()
-
+    
     print(f"ReLU Values: {[relu_func(x) for x in input_values]}")
     print(f"Leaky ReLU Values: {[leaky_relu(x) for x in input_values]}")
-    print(f"Tanh Values: {[leaky_relu(x) for x in input_values]}")
-
+    print(f"Tanh Values: {[tanh_func(x) for x in input_values]}")
+    # Bug of wrong function name
